@@ -4,6 +4,7 @@ let slider3 = document.getElementById("slider_three");
 let sec_two = document.getElementById("sec_two");
 let pageURL = window.location.href;
 let lastURLSegment = pageURL.substr(pageURL.lastIndexOf('/') + 1);
+
 if (lastURLSegment == 'index.html') {
   if ((sec_two.style.backgroundImage = "s1.jpeg")) {
     slider1.style.display = "block";
